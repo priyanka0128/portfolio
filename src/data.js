@@ -15,17 +15,17 @@ export const profile = {
 };
 
 export const about = [
-  "I'm Priyanka — an engineer and curious builder, currently finishing an MSc in Cybersecurity Risk Management at Galway. Before this I spent two years as a project engineer in network operations, which taught me more about people than packets.",
+  "I'm Priyanka — finishing an MSc in Cybersecurity Risk Management at Galway. My dissertation builds an adaptive cyber risk framework for the financial sector, mapped to ISO 27001, NIST CSF, NIS2 and the EU AI Act. Most frameworks tell you what went wrong after the annual audit; mine scores threats in real time, with a Power BI layer that connects SOC operations to GRC governance.",
   "These days I spend my evenings building things that probably shouldn't exist yet. Vela clones an ALS patient's voice before they lose it, then talks for them in their own dialect. An IRC chatbot I prototyped at AWS Breaking Barriers reads verified council content in any language a refugee speaks. An adaptive cyber risk framework scores threats in real time instead of waiting for the annual audit. None of these started as research — they started as the thought \"why doesn't this exist yet?\"",
-  "I'm interested in the messy edge where AI meets real-world systems — where a wrong answer matters, where security is part of the design, and where the goal isn't a clever model but a thing that genuinely helps. Looking for the kind of team that thinks the same way."
+  "The thread across all of it: I'm drawn to the messy edge where AI and security meet real-world systems — where a wrong answer has consequences, where compliance has to be designed in rather than bolted on, and where the goal isn't a clever model but a thing that genuinely works. I'd rather close a loop than open a tab."
 ];
 
 export const work = [
   {
-    role: "Teaching Assistant — Web Development",
+    role: "Teaching Assistant ",
     company: "University of Galway",
     location: "Galway, Ireland",
-    period: "Oct 2025 — Present",
+    period: "Oct 2025 — April 2026",
     summary: "Took everything learned building for production and brought it into the classroom — running web development practicals for engineering students and making sure concepts actually stuck.",
     highlights: [
       "Conducted hands-on lab sessions covering core web development for undergraduate engineering students.",
@@ -34,29 +34,30 @@ export const work = [
     ]
   },
   {
-    role: "Project Engineer — Network & Security",
-    company: "Tata Communications (Novamesh)",
-    location: "Pune, India",
-    period: "Jul 2024 — Aug 2025",
-    summary: "Ran network consulting and project delivery for 10+ enterprise clients — owned the technical setup, the compliance cycles, and the reporting, while keeping delivery on track across the full project lifecycle.",
-    highlights: [
-      "Pushed uptime up 20% across managed accounts by replacing manual checks with Python-based monitoring.",
-      "Drove end-to-end project workflows — coordinating with clients, tracking deliverables, and keeping teams aligned across concurrent engagements.",
-      "Ran the compliance and patching cadence across multi-vendor stacks — Cisco, firewalls, Snort IDS — keeping audit trails clean."
-    ]
-  },
-  {
-    role: "Data & Operations Intern",
-    company: "Navtor India Pvt. Ltd.",
-    location: "Mumbai, India",
-    period: "Sep 2023 — Jun 2024",
-    summary: "Walked in asking why nobody had one view of the fleet. Left having built the BI dashboard that became that view.",
-    highlights: [
-      "Designed a dashboard pulling live operational data from 30+ clients and 20+ vessels into one consolidated view the team could actually trust.",
-      "Worked at the intersection of product and operations — translating messy vessel data into insights that fed directly into roadmap decisions.",
-      "Defined metrics with product and engineering that tracked real business outcomes, not vanity activity counts."
-    ]
-  },
+  role: "Project Engineer — Network & Security",
+  company: "Tata Communications (Novamesh)",
+  location: "Pune, India",
+  period: "Jul 2024 — Aug 2025",
+  summary: "Owned network and security delivery for 10+ enterprise clients across the full project lifecycle — control assessments, compliance cadences, patching cycles, and stakeholder reporting in a critical telecoms and enterprise IT environment.",
+  highlights: [
+    "Improved managed-account uptime by 20% by replacing manual checks with Python-based monitoring, reducing mean time to detect across the client base.",
+    "Ran compliance and patching cycles across multi-vendor stacks (Cisco, firewalls, Snort IDS), maintaining clean audit trails and evidencing control performance for internal and external reviews.",
+    "Identified control deficiencies and drove data-driven remediation with engineering and client teams — tracking findings to closure against agreed SLAs.",
+    "Translated control performance, risk exposure, and contractual obligations into actionable reporting for senior stakeholders, asset owners, and customers."
+  ]
+},
+{
+  role: "Data & Operations Intern",
+  company: "Navtor India Pvt. Ltd.",
+  location: "Mumbai, India",
+  period: "Sep 2023 — Jun 2024",
+  summary: "Built the end-to-end BI reporting layer the operations team didn't have — consolidating fragmented vessel and client data into a single source of truth used by leadership.",
+  highlights: [
+    "Designed and delivered a Power BI dashboard tracking KPIs across 30+ clients and 20+ vessels, replacing manual reporting with an automated, validated pipeline.",
+    "Defined metrics with product and engineering tied to real operational and risk indicators — SLA performance, exception rates, and utilisation — rather than vanity activity counts.",
+    "Validated data integrity end to end and documented the reporting model so it could be maintained and extended after handover."
+  ]
+},
   {
     role: "Student Intern",
     company: "Coincent.ai",
