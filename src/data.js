@@ -11,7 +11,6 @@ export const profile = {
   phone: "+353 899 758 079",
   linkedin: "https://www.linkedin.com/in/priyanka-chavan-psc2002/",
   github: "https://github.com/priyanka0128",
-  resumeUrl: "/Priyanka_Chavan_CV.pdf",
 };
 
 export const about = [

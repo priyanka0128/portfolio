@@ -58,10 +58,6 @@ export default function Nav() {
           ) : (
             <Link to="/">Home</Link>
           )}
-          <a href={profile.resumeUrl} className="nav__cta" download>
-            <span>↓</span>
-            Resume
-          </a>
         </div>
       </div>
     </nav>

@@ -40,9 +40,6 @@ export default function Contact() {
           <a href={profile.github} target="_blank" rel="noopener noreferrer">
             <span>↗</span> GitHub
           </a>
-          <a href={profile.resumeUrl} download>
-            <span>↓</span> Resume
-          </a>
         </motion.div>
       </div>
     </section>
